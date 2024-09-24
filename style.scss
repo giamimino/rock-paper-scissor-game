@@ -227,4 +227,7 @@ img {
     border-radius: 8px;
     font-weight: 700;
     cursor: pointer;
+    @media screen and (max-width: 645px) {
+        width: calc(50% - 10px);
+    }
 }

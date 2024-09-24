@@ -228,5 +228,10 @@ img {
     gap: 0px;
   }
 }
+@media screen and (max-width: 645px) {
+  .active.after-chose ~ .restart {
+    width: calc(50% - 10px);
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
