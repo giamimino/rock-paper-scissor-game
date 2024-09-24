@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock paper scissors</title>
+
+    <!-- ********* style ******** -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- ********* javaScript ******** -->
+     <script src="./script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper papper-wrapper">
+            <img src="./assets/images/paper.png" alt="">
+            <p class="pick-title paper-title">Papper</p>
+            <button 
+            type="button" 
+            class="btn paper" 
+            id="paper">
+            pick
+        </button>
+        </div>
+
+        <div class="wrapper rock-wrapper">
+            <img src="./assets/images/rock.png" alt="">
+            <p class="pick-title rock-title">rock</p>
+            <button 
+            type="button" 
+            class="btn rock" 
+            id="rock">
+            pick
+        </button>
+        </div>
+
+        <div class="wrapper scissors-wrapper">
+            <img src="./assets/images/scissors.png" alt="">
+            <p class="pick-title scissors-title">scissors</p>
+            <button
+            type="button" 
+            class="btn scissors" 
+            id="scissors">
+            pick
+        </button>
+        </div>
+    </div>
+
+    <div class="after-chose">
+        <div class="wrapper chossen">
+            <img src="" id="chossen-img" alt="">
+            <p class="text chossen-title"></p>
+        </div>
+        <p class="text isWinner"></p>
+        <h1 class="vs">VS</h1>
+        <div class="wrapper enemy">
+            <img src="" id="enemy-img" alt="">
+            <p class="text enemy-title"></p>
+        </div>
+    </div>
+
+    <button onclick="reloadPage()" class="restart">restart</button>
+</body>
+</html>
